@@ -1,0 +1,25 @@
+/* base */
+
+:root {
+  --scrollbar-color: #dbe1ff;
+}
+
+:root.dark {
+  --scrollbar-color: #a8b2d1;
+}
+
+/* scrollbars */
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
