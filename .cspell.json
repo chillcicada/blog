@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "ignorePaths": [
+    ".*",
+    "node_modules"
+  ],
+  "words": [
+    "AIMI",
+    "Bilibili",
+    "Distro",
+    "Godaddy",
+    "nuxi",
+    "nuxtjs",
+    "pinceau"
+  ]
+}
