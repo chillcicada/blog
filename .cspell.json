@@ -1,7 +1,12 @@
 {
   "version": "0.2",
   "language": "en",
-  "ignorePaths": [".*", "node_modules", "pnpm-lock.yaml", ".temp"],
+  "ignorePaths": [
+    ".*",
+    "node_modules",
+    "pnpm-lock.yaml",
+    ".temp"
+  ],
   "words": [
     "AIMI",
     "Bilibili",
@@ -11,12 +16,14 @@
     "flomo",
     "Godaddy",
     "kireigoto",
+    "modders",
     "nuxi",
     "nuxt",
     "nuxtjs",
     "pinceau",
     "rgba",
     "sublicensable",
+    "vlogo",
     "vuepress",
     "waivable"
   ]
