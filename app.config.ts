@@ -1,27 +1,28 @@
 // https://github.com/nuxt-themes/alpine/blob/main/nuxt.schema.ts
 export default defineAppConfig({
   alpine: {
-    title: 'Alpine',
-    description: 'The minimalist blog theme',
+    title: "Cc's Blog",
+    description: 'A boring blog.',
     image: {
-      src: '/social-card-preview.png',
-      alt: 'An image showcasing my project.',
+      src: 'https://img.chillcicada.com/i/2024/05/03/66348e20d2e4e.webp',
+      alt: 'An image showcasing my past.',
       width: 400,
       height: 300,
     },
     header: {
-      position: 'right', // possible value are : | 'left' | 'center' | 'right'
+      // 'left' | 'center' | 'right'
+      position: 'right',
       logo: {
-        path: '/logo.svg', // path of the logo
-        pathDark: '/logo-dark.svg', // path of the logo in dark mode, leave this empty if you want to use the same logo
-        alt: 'chillcicada', // alt of the logo
+        path: '/logo.svg',
+        pathDark: '/logo-dark.svg',
+        alt: 'chillcicada',
       },
     },
     footer: {
       credits: {
-        enabled: true,
-        text: '',
-        link: '',
+        enabled: false,
+        // text: '',
+        // link: '',
       },
       navigation: true,
       alignment: 'center',
@@ -29,9 +30,19 @@ export default defineAppConfig({
     },
     socials: {
       github: 'chillcicada',
+      youtube: '@chillcicada',
+      NCM: {
+        icon: 'tabler:brand-netease-music',
+        label: '-Semi-',
+        href: 'https://music.163.com/#/user/home?id=1403030074',
+      }
     },
     form: {
       successMessage: 'Message sent. Thank you!',
+    },
+    backToTop: {
+      icon: 'material-symbols:arrow-upward',
+      text: 'Back To Top',
     },
   },
 })

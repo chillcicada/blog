@@ -4,6 +4,7 @@
 >
 > record my life, no tech, no comment, no feedback. reduced :)
 
-## TODO
+## LICENSE
 
-- [ ] add a phrase layout
+- [MIT](./LICENSE-MIT) for files in `./` except `./content/`
+- [CC BY-NC-SA 4.0](./LICENSE-CC) for files in `./content/`

@@ -1,17 +1,36 @@
 {
   "version": "0.2",
   "language": "en",
-  "ignorePaths": [
-    ".*",
-    "node_modules"
-  ],
+  "ignorePaths": [".*", "node_modules", "pnpm-lock.yaml", ".temp"],
   "words": [
+    "ACGN",
     "AIMI",
     "Bilibili",
+    "chiikawa",
+    "compatiblelicenses",
+    "creativecommons",
+    "desu",
     "Distro",
+    "flomo",
     "Godaddy",
+    "INFP",
+    "Jetbrains",
+    "kireigoto",
+    "MBTI",
+    "modders",
+    "Neovim",
+    "netease",
+    "Nightcore",
     "nuxi",
+    "nuxt",
     "nuxtjs",
-    "pinceau"
+    "pinceau",
+    "rgba",
+    "Stellarium",
+    "sublicensable",
+    "tabler",
+    "vlogo",
+    "vuepress",
+    "waivable"
   ]
 }
