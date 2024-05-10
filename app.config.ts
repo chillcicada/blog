@@ -31,6 +31,11 @@ export default defineAppConfig({
     socials: {
       github: 'chillcicada',
       youtube: '@chillcicada',
+      NCM: {
+        icon: 'tabler:brand-netease-music',
+        label: '-Semi-',
+        href: 'https://music.163.com/#/user/home?id=1403030074',
+      }
     },
     form: {
       successMessage: 'Message sent. Thank you!',
