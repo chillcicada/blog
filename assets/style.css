@@ -23,3 +23,18 @@
 ::-webkit-scrollbar-track {
   display: none;
 }
+
+/* del tag */
+
+del {
+  text-decoration: none;
+  color: transparent;
+}
+
+del:hover {
+  color: black;
+}
+
+:root.dark del:hover {
+  color: white;
+}
